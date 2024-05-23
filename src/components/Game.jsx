@@ -7,7 +7,7 @@ const Game = () => {
 
   return (
     <Flipper flipKey={board.join("")}>
-      <div className="grid grid-rows-3 grid-cols-3 justify-center mt-10 gap-y-10 w-[30%] mx-auto">
+      <div className="grid grid-rows-3 grid-cols-3 justify-center mt-10 gap-y-10 xl:w-[30%] sm:w-[60%] mx-auto text-center">
         {board.map((tile, index) => (
           <Tile tile={tile} index={index} key={index} />
         ))}
