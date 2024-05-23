@@ -52,8 +52,8 @@ const Tile = ({ tile, index }) => {
     <Flipped flipId={`tile-${index}`}>
       <div className="tile">
         <button
-          className={`tile bg-${
-            winner ? "black" : "blue-400"
+          className={`tile ${
+            winner ? "bg-black" : "bg-blue-400"
           } w-[100px] h-[100px] m-auto text-7xl text-white ${
             clicked ? "clicked" : null
           }`}
