@@ -1,0 +1,13 @@
+.tile {
+  position: relative;
+  perspective: 1000px;
+}
+
+button {
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+button.clicked {
+  transform: rotateY(180deg);
+}
